@@ -1,4 +1,8 @@
 { "name": "APL",
+
+// http://www.math.uwaterloo.ca/~ljdickey/apl-rep/n1.html
+// http://docs.dyalog.com/latest/Dyalog%20APL%20Terminology.pdf
+
   "scopeName": "source.apl",
   "fileTypes": ["apl"],
   "patterns": [
@@ -47,18 +51,28 @@
     },
 
     { "match": "⌿",
-      "name": "keyword.operator.omega.apl",
+      "name": "keyword.operator.reducelast.apl",
       "comment": "Slash bar - reduce, last axis"
     },
 
     { "match": "\\",
-      "name": "keyword.operator.omega.apl",
+      "name": "keyword.operator.scan.apl",
       "comment": "Backslash - scan, last axis"
     },
 
     { "match": "⍀",
-      "name": "keyword.operator.omega.apl",
+      "name": "keyword.operator.scanlast.apl",
       "comment": "Backslash bar - scan, first axis"
+    },
+
+    { "match": ".",
+      "name": "keyword.operator.innerproduct.apl",
+      "comment": "Dot - inner product"
+    },
+
+    { "match": "∘.",
+      "name": "keyword.operator.outerproduct.apl",
+      "comment": "Circle dot - outer product"
     },
 
 
