@@ -51,6 +51,16 @@
       "comment": "Slash bar - reduce, last axis"
     },
 
+    { "match": "\\",
+      "name": "keyword.operator.omega.apl",
+      "comment": "Backslash - scan, last axis"
+    },
+
+    { "match": "⍀",
+      "name": "keyword.operator.omega.apl",
+      "comment": "Backslash bar - scan, first axis"
+    },
+
 
 
     { "begin": "'",
