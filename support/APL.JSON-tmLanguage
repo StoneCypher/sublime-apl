@@ -3,44 +3,65 @@
   "fileTypes": ["apl"],
   "patterns": [
 
-    { "match": "⍝",
+    { "match": "⍝.+",
       "name": "comment.line.apl",
-      "comment": "Rho - Shape/Reshape"
+      "comment": "Line comment"
     },
 
     { "match": "←",
       "name": "storage.apl",
-      "comment": "Rho - Shape/Reshape"
+      "comment": "Left Arrow - Assign"
     },
+
+
 
     { "match": "{",
       "name": "support.function.apl",
       "comment": "Open d-function/d-operator"
     },
+
     { "match": "}",
       "name": "support.function.apl",
       "comment": "Close d-function/d-operator"
     },
+
+
 
     { "match": "⍴",
       "name": "storage.modifier.rho.apl",
       "comment": "Rho - Shape/Reshape"
     },
 
+
+
     { "match": "⍵",
       "name": "keyword.operator.omega.apl",
       "comment": "Omega variable"
     },
 
+
+
+    { "match": "/",
+      "name": "keyword.operator.reduce.apl",
+      "comment": "Slash - reduce, first axis"
+    },
+
+    { "match": "⌿",
+      "name": "keyword.operator.omega.apl",
+      "comment": "Slash bar - reduce, last axis"
+    },
+
+
+
     { "begin": "'",
       "end": "'",
       "patterns": [
         { "include": "$self" },
-        { "name": "interior.string.single.apl",
+        { "name": "string.single.apl",
           "match": "."
         }
       ],
-      "name": "string.source.apl",
+      "name": "string.apl",
       "comment": "String"
     }
   ],
