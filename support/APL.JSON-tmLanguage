@@ -10,6 +10,27 @@
 
 
 
+    { "begin": "'",
+      "end": "'|\n",
+      "beginCaptures": {
+        "0": {"name": "string.single.begin.apl"}
+      },
+      "endCaptures": {
+        "1": {"name": "string.single.end.apl"},
+        "2": {"name": "invalid.illegal.newline.apl"}
+      },
+      "patterns": [
+        { "include": "$self" },
+        { "name": "string.single.content.apl",
+          "match": "."
+        }
+      ],
+      "name": "string.single.apl",
+      "comment": "String"
+    },
+
+
+
     { "match": "⍝.+",
       "name": "comment.line.apl",
       "comment": "Line comment"
@@ -17,7 +38,7 @@
 
     { "match": "[0-9][0-9\\.]*",
       "name": "constant.numeric.apl",
-      "comment": "Line comment"
+      "comment": "Numeric constant"
     },
 
 
@@ -44,6 +65,13 @@
     { "match": "⍴",
       "name": "storage.modifier.rho.apl",
       "comment": "Rho - Shape/Reshape"
+    },
+
+
+
+    { "match": "¯",
+      "name": "support.function.negate.apl",
+      "comment": "High minus - Negate"
     },
 
 
@@ -98,21 +126,8 @@
     { "match": "∘\\.",
       "name": "keyword.operator.outerproduct.apl",
       "comment": "Circle dot - outer product"
-    },
-
-
-
-    { "begin": "'",
-      "end": "'",
-      "patterns": [
-        { "include": "$self" },
-        { "name": "string.single.apl",
-          "match": "."
-        }
-      ],
-      "name": "string.apl",
-      "comment": "String"
     }
+
   ],
   "uuid": "0d05b65e-3e85-4493-8936-fece72e43e47"
 }
