@@ -1,0 +1,42 @@
+{ "name": "APL",
+  "scopeName": "source.apl",
+  "fileTypes": ["apl"],
+  "patterns": [
+
+    { "match": "←",
+      "name": "storage.apl",
+      "comment": "Rho - Shape/Reshape"
+    },
+
+    { "match": "{",
+      "name": "support.function.apl",
+      "comment": "Open d-function/d-operator"
+    },
+    { "match": "}",
+      "name": "support.function.apl",
+      "comment": "Close d-function/d-operator"
+    },
+
+    { "match": "⍴",
+      "name": "keyword.operator.rho.apl",
+      "comment": "Rho - Shape/Reshape"
+    },
+    { "match": "⍵",
+      "name": "keyword.operator.omega.apl",
+      "comment": "Omega variable"
+    },
+
+    { "begin": "'",
+      "end": "'",
+      "patterns": [
+        { "include": "$self" },
+        { "name": "interior.string.single.apl",
+          "match": "."
+        }
+      ],
+      "name": "string.source.apl",
+      "comment": "String"
+    }
+  ],
+  "uuid": "0d05b65e-3e85-4493-8936-fece72e43e47"
+}
