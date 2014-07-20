@@ -12,15 +12,23 @@
 	<array>
 		<dict>
 			<key>comment</key>
-			<string>Rho - Shape/Reshape</string>
+			<string>Line comment</string>
 			<key>match</key>
-			<string>⍝</string>
+			<string>⍝.+</string>
 			<key>name</key>
 			<string>comment.line.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Rho - Shape/Reshape</string>
+			<string>Line comment</string>
+			<key>match</key>
+			<string>[0-9][0-9\.]*</string>
+			<key>name</key>
+			<string>constant.numeric.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Left Arrow - Assign</string>
 			<key>match</key>
 			<string>←</string>
 			<key>name</key>
@@ -48,7 +56,31 @@
 			<key>match</key>
 			<string>⍴</string>
 			<key>name</key>
-			<string>keyword.operator.rho.apl</string>
+			<string>storage.modifier.rho.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Double alpha variable</string>
+			<key>match</key>
+			<string>⍺⍺</string>
+			<key>name</key>
+			<string>variable.para.doublealpha.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Alpha variable</string>
+			<key>match</key>
+			<string>⍺</string>
+			<key>name</key>
+			<string>variable.other.alpha.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Double Omega variable</string>
+			<key>match</key>
+			<string>⍵⍵</string>
+			<key>name</key>
+			<string>variable.language.doubleomega.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -56,7 +88,55 @@
 			<key>match</key>
 			<string>⍵</string>
 			<key>name</key>
-			<string>keyword.operator.omega.apl</string>
+			<string>variable.parameter.omega.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Slash - reduce, first axis</string>
+			<key>match</key>
+			<string>/</string>
+			<key>name</key>
+			<string>keyword.operator.reduce.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Slash bar - reduce, last axis</string>
+			<key>match</key>
+			<string>⌿</string>
+			<key>name</key>
+			<string>keyword.operator.reducelast.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Backslash - scan, last axis</string>
+			<key>match</key>
+			<string>\\</string>
+			<key>name</key>
+			<string>keyword.operator.scan.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Backslash bar - scan, first axis</string>
+			<key>match</key>
+			<string>⍀</string>
+			<key>name</key>
+			<string>keyword.operator.scanlast.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Dot - inner product</string>
+			<key>match</key>
+			<string>\.</string>
+			<key>name</key>
+			<string>keyword.operator.innerproduct.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Circle dot - outer product</string>
+			<key>match</key>
+			<string>∘\.</string>
+			<key>name</key>
+			<string>keyword.operator.outerproduct.apl</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -66,7 +146,7 @@
 			<key>end</key>
 			<string>'</string>
 			<key>name</key>
-			<string>string.source.apl</string>
+			<string>string.apl</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -77,7 +157,7 @@
 					<key>match</key>
 					<string>.</string>
 					<key>name</key>
-					<string>interior.string.single.apl</string>
+					<string>string.single.apl</string>
 				</dict>
 			</array>
 		</dict>

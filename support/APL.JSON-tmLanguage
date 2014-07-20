@@ -8,10 +8,19 @@
   "fileTypes": ["apl"],
   "patterns": [
 
+
+
     { "match": "⍝.+",
       "name": "comment.line.apl",
       "comment": "Line comment"
     },
+
+    { "match": "[0-9][0-9\\.]*",
+      "name": "constant.numeric.apl",
+      "comment": "Line comment"
+    },
+
+
 
     { "match": "←",
       "name": "storage.apl",
@@ -39,24 +48,24 @@
 
 
 
+    { "match": "⍺⍺",
+      "name": "variable.para.doublealpha.apl",
+      "comment": "Double alpha variable"
+    },
+
     { "match": "⍺",
-      "name": "variable.parameter.alpha.apl",
+      "name": "variable.other.alpha.apl",
       "comment": "Alpha variable"
     },
 
-    { "match": "⍺⍺",
-      "name": "variable.parameter.doublealpha.apl",
-      "comment": "Double alpha variable"
+    { "match": "⍵⍵",
+      "name": "variable.language.doubleomega.apl",
+      "comment": "Double Omega variable"
     },
 
     { "match": "⍵",
       "name": "variable.parameter.omega.apl",
       "comment": "Omega variable"
-    },
-
-    { "match": "⍵⍵",
-      "name": "variable.parameter.doubleomega.apl",
-      "comment": "Double Omega variable"
     },
 
 
