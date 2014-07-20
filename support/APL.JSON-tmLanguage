@@ -3,6 +3,11 @@
   "fileTypes": ["apl"],
   "patterns": [
 
+    { "match": "⍝",
+      "name": "comment.line.apl",
+      "comment": "Rho - Shape/Reshape"
+    },
+
     { "match": "←",
       "name": "storage.apl",
       "comment": "Rho - Shape/Reshape"
@@ -18,9 +23,10 @@
     },
 
     { "match": "⍴",
-      "name": "keyword.operator.rho.apl",
+      "name": "storage.modifier.rho.apl",
       "comment": "Rho - Shape/Reshape"
     },
+
     { "match": "⍵",
       "name": "keyword.operator.omega.apl",
       "comment": "Omega variable"

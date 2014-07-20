@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>apl</string>
+	</array>
+	<key>name</key>
+	<string>APL</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Rho - Shape/Reshape</string>
+			<key>match</key>
+			<string>⍝</string>
+			<key>name</key>
+			<string>comment.line.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Rho - Shape/Reshape</string>
+			<key>match</key>
+			<string>←</string>
+			<key>name</key>
+			<string>storage.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Open d-function/d-operator</string>
+			<key>match</key>
+			<string>{</string>
+			<key>name</key>
+			<string>support.function.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Close d-function/d-operator</string>
+			<key>match</key>
+			<string>}</string>
+			<key>name</key>
+			<string>support.function.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Rho - Shape/Reshape</string>
+			<key>match</key>
+			<string>⍴</string>
+			<key>name</key>
+			<string>keyword.operator.rho.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Omega variable</string>
+			<key>match</key>
+			<string>⍵</string>
+			<key>name</key>
+			<string>keyword.operator.omega.apl</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>'</string>
+			<key>comment</key>
+			<string>String</string>
+			<key>end</key>
+			<string>'</string>
+			<key>name</key>
+			<string>string.source.apl</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>$self</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>.</string>
+					<key>name</key>
+					<string>interior.string.single.apl</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.apl</string>
+	<key>uuid</key>
+	<string>0d05b65e-3e85-4493-8936-fece72e43e47</string>
+</dict>
+</plist>
