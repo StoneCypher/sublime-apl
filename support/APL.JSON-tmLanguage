@@ -1,5 +1,6 @@
 { "name": "APL",
 
+// http://en.wikipedia.org/wiki/APL_syntax_and_symbols
 // http://www.math.uwaterloo.ca/~ljdickey/apl-rep/n1.html
 // http://docs.dyalog.com/latest/Dyalog%20APL%20Terminology.pdf
 
@@ -38,9 +39,24 @@
 
 
 
+    { "match": "⍺",
+      "name": "variable.parameter.alpha.apl",
+      "comment": "Alpha variable"
+    },
+
+    { "match": "⍺⍺",
+      "name": "variable.parameter.doublealpha.apl",
+      "comment": "Double alpha variable"
+    },
+
     { "match": "⍵",
-      "name": "keyword.operator.omega.apl",
+      "name": "variable.parameter.omega.apl",
       "comment": "Omega variable"
+    },
+
+    { "match": "⍵⍵",
+      "name": "variable.parameter.doubleomega.apl",
+      "comment": "Double Omega variable"
     },
 
 
@@ -55,7 +71,7 @@
       "comment": "Slash bar - reduce, last axis"
     },
 
-    { "match": "\\",
+    { "match": "\\\\",
       "name": "keyword.operator.scan.apl",
       "comment": "Backslash - scan, last axis"
     },
@@ -65,12 +81,12 @@
       "comment": "Backslash bar - scan, first axis"
     },
 
-    { "match": ".",
+    { "match": "\\.",
       "name": "keyword.operator.innerproduct.apl",
       "comment": "Dot - inner product"
     },
 
-    { "match": "∘.",
+    { "match": "∘\\.",
       "name": "keyword.operator.outerproduct.apl",
       "comment": "Circle dot - outer product"
     },
