@@ -13,19 +13,19 @@
     { "begin": "'",
       "end": "'|\n",
       "beginCaptures": {
-        "0": {"name": "string.single.begin.apl"}
+        "0": {"name": "support.type.string.single.begin.apl"}
       },
       "endCaptures": {
-        "1": {"name": "string.single.end.apl"},
+        "1": {"name": "support.type.string.single.end.apl"},
         "2": {"name": "invalid.illegal.newline.apl"}
       },
       "patterns": [
         { "include": "$self" },
         { "name": "string.single.content.apl",
-          "match": "."
+          "match": "[a-zA-Z]+"
         }
       ],
-      "name": "string.single.apl",
+      "name": "support.type.string.single.apl",
       "comment": "String"
     },
 
@@ -51,13 +51,23 @@
 
 
     { "match": "{",
-      "name": "support.function.apl",
+      "name": "support.function.function.open.apl",
       "comment": "Open d-function/d-operator"
     },
 
     { "match": "}",
-      "name": "support.function.apl",
+      "name": "support.function.function.close.apl",
       "comment": "Close d-function/d-operator"
+    },
+
+    { "match": "\\(",
+      "name": "support.type.parenthesis.open.apl",
+      "comment": "Open parenthesis - Vectors / ordering"
+    },
+
+    { "match": "\\)",
+      "name": "support.type.parenthesis.close.apl",
+      "comment": "Close parenthesis - Vectors / ordering"
     },
 
 
@@ -92,6 +102,21 @@
     { "match": "×",
       "name": "support.function.math.times.apl",
       "comment": "Times - Sign Of / Multiply"
+    },
+
+    { "match": "\\*",
+      "name": "support.function.math.star.apl",
+      "comment": "Star - Exponential / Power"
+    },
+
+    { "match": "!",
+      "name": "support.function.math.exclamationmark.apl",
+      "comment": "Exclamation Mark - Factorial / Binomial"
+    },
+
+    { "match": "\\?",
+      "name": "support.function.math.questionmark.apl",
+      "comment": "Question Mark - Roll / Deal"
     },
 
     { "match": "\\|",

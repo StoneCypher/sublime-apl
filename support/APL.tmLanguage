@@ -18,7 +18,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>string.single.begin.apl</string>
+					<string>support.type.string.single.begin.apl</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -31,7 +31,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>string.single.end.apl</string>
+					<string>support.type.string.single.end.apl</string>
 				</dict>
 				<key>2</key>
 				<dict>
@@ -40,7 +40,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.single.apl</string>
+			<string>support.type.string.single.apl</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -49,7 +49,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>.</string>
+					<string>[a-zA-Z]+</string>
 					<key>name</key>
 					<string>string.single.content.apl</string>
 				</dict>
@@ -85,7 +85,7 @@
 			<key>match</key>
 			<string>{</string>
 			<key>name</key>
-			<string>support.function.apl</string>
+			<string>support.function.function.open.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -93,7 +93,23 @@
 			<key>match</key>
 			<string>}</string>
 			<key>name</key>
-			<string>support.function.apl</string>
+			<string>support.function.function.close.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Open parenthesis - Vectors / ordering</string>
+			<key>match</key>
+			<string>\(</string>
+			<key>name</key>
+			<string>support.type.parenthesis.open.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Close parenthesis - Vectors / ordering</string>
+			<key>match</key>
+			<string>\)</string>
+			<key>name</key>
+			<string>support.type.parenthesis.close.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -142,6 +158,30 @@
 			<string>×</string>
 			<key>name</key>
 			<string>support.function.math.times.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Star - Exponential / Power</string>
+			<key>match</key>
+			<string>\*</string>
+			<key>name</key>
+			<string>support.function.math.star.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Exclamation Mark - Factorial / Binomial</string>
+			<key>match</key>
+			<string>!</string>
+			<key>name</key>
+			<string>support.function.math.exclamationmark.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Question Mark - Roll / Deal</string>
+			<key>match</key>
+			<string>\?</string>
+			<key>name</key>
+			<string>support.function.math.questionmark.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
