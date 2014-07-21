@@ -204,25 +204,23 @@
       "comment": "Domino - Matrix inverse / matrix divide"
     },
 
-
-
     { "match": "⍺⍺",
-      "name": "variable.parameter.doublealpha.apl",
+      "name": "constant.other.parameter.doublealpha.apl",
       "comment": "Double alpha variable"
     },
 
     { "match": "⍺",
-      "name": "variable.parameter.alpha.apl",
+      "name": "constant.language.parameter.alpha.apl",
       "comment": "Alpha variable"
     },
 
     { "match": "⍵⍵",
-      "name": "variable.parameter.doubleomega.apl",
+      "name": "constant.other.parameter.doubleomega.apl",
       "comment": "Double Omega variable"
     },
 
     { "match": "⍵",
-      "name": "variable.parameter.omega.apl",
+      "name": "constant.language.parameter.omega.apl",
       "comment": "Omega variable"
     },
 
@@ -248,14 +246,14 @@
       "comment": "Backslash bar - scan, first axis"
     },
 
+    { "match": "∘",
+      "name": "keyword.operator.jot.apl",
+      "comment": "Jot - outer product"
+    },
+
     { "match": "\\.",
       "name": "keyword.operator.innerproduct.apl",
       "comment": "Dot - inner product"
-    },
-
-    { "match": "∘\\.",
-      "name": "keyword.operator.outerproduct.apl",
-      "comment": "Circle dot - outer product"
     }
 
 
