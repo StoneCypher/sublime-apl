@@ -70,11 +70,56 @@
       "comment": "Close parenthesis - Vectors / ordering"
     },
 
+    { "match": "⍬",
+      "name": "support.type.zilde.apl",
+      "comment": "Zilde - Empty numeric vector"
+    },
+
 
 
     { "match": "⍴",
       "name": "storage.modifier.rho.apl",
       "comment": "Rho - Shape/Reshape"
+    },
+
+    { "match": "¨",
+      "name": "storage.modifier.dieresis.apl",
+      "comment": "Dieresis - Each"
+    },
+
+    { "match": "⍨",
+      "name": "storage.modifier.tildedieresis.apl",
+      "comment": "Tilde dieresis - Commute"
+    },
+
+    { "match": "⍣",
+      "name": "storage.modifier.stardieresis.apl",
+      "comment": "Star dieresis - Power"
+    },
+
+    { "match": ",",
+      "name": "storage.modifier.comma.apl",
+      "comment": "Comma - Ravel / catenate-laminate"
+    },
+
+    { "match": "⍪",
+      "name": "storage.modifier.commabar.apl",
+      "comment": "Comma bar - Table / catenate-first-laminate"
+    },
+
+    { "match": "⌽",
+      "name": "storage.modifier.circlestile.apl",
+      "comment": "Circle stile - Reverse / rotate"
+    },
+
+    { "match": "⊖",
+      "name": "storage.modifier.circlebar.apl",
+      "comment": "Circle bar - Reverse first / rotate first"
+    },
+
+    { "match": "⍉",
+      "name": "storage.modifier.circlebackslash.apl",
+      "comment": "Circle backslash - Transpose / dyadic transpose"
     },
 
 
@@ -142,6 +187,21 @@
     { "match": "⊤",
       "name": "support.function.math.downtack.apl",
       "comment": "Downtack - Encode"
+    },
+
+    { "match": "⍟",
+      "name": "support.function.math.log.apl",
+      "comment": "Log - Natural logarithm / logarithm"
+    },
+
+    { "match": "○",
+      "name": "support.function.math.circle.apl",
+      "comment": "Circle - Pi times / trig"
+    },
+
+    { "match": "⌹",
+      "name": "support.function.math.domino.apl",
+      "comment": "Domino - Matrix inverse / matrix divide"
     },
 
 

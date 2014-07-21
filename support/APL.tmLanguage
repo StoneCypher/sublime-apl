@@ -113,11 +113,83 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Zilde - Empty numeric vector</string>
+			<key>match</key>
+			<string>⍬</string>
+			<key>name</key>
+			<string>support.type.zilde.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Rho - Shape/Reshape</string>
 			<key>match</key>
 			<string>⍴</string>
 			<key>name</key>
 			<string>storage.modifier.rho.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Dieresis - Each</string>
+			<key>match</key>
+			<string>¨</string>
+			<key>name</key>
+			<string>storage.modifier.dieresis.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tilde dieresis - Commute</string>
+			<key>match</key>
+			<string>⍨</string>
+			<key>name</key>
+			<string>storage.modifier.tildedieresis.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Star dieresis - Power</string>
+			<key>match</key>
+			<string>⍣</string>
+			<key>name</key>
+			<string>storage.modifier.stardieresis.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Comma - Ravel / catenate-laminate</string>
+			<key>match</key>
+			<string>,</string>
+			<key>name</key>
+			<string>storage.modifier.comma.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Comma bar - Table / catenate-first-laminate</string>
+			<key>match</key>
+			<string>⍪</string>
+			<key>name</key>
+			<string>storage.modifier.commabar.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Circle stile - Reverse / rotate</string>
+			<key>match</key>
+			<string>⌽</string>
+			<key>name</key>
+			<string>storage.modifier.circlestile.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Circle bar - Reverse first / rotate first</string>
+			<key>match</key>
+			<string>⊖</string>
+			<key>name</key>
+			<string>storage.modifier.circlebar.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Circle backslash - Transpose / dyadic transpose</string>
+			<key>match</key>
+			<string>⍉</string>
+			<key>name</key>
+			<string>storage.modifier.circlebackslash.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -222,6 +294,30 @@
 			<string>⊤</string>
 			<key>name</key>
 			<string>support.function.math.downtack.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Log - Natural logarithm / logarithm</string>
+			<key>match</key>
+			<string>⍟</string>
+			<key>name</key>
+			<string>support.function.math.log.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Circle - Pi times / trig</string>
+			<key>match</key>
+			<string>○</string>
+			<key>name</key>
+			<string>support.function.math.circle.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Domino - Matrix inverse / matrix divide</string>
+			<key>match</key>
+			<string>⌹</string>
+			<key>name</key>
+			<string>support.function.math.domino.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
