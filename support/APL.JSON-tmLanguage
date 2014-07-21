@@ -6,7 +6,18 @@
 
   "scopeName": "source.apl",
   "fileTypes": ["apl"],
+
+  "foldingStartMarker": "{",
+  "foldingStopMarker": "}",
+
   "patterns": [
+
+
+
+    { "match": "^#!.+",
+      "name": "comment.shebang.apl",
+      "comment": "Shebang interpreter invokation"
+    },
 
 
 
@@ -70,9 +81,16 @@
       "comment": "Close parenthesis - Vectors / ordering"
     },
 
+
+
     { "match": "⍬",
-      "name": "support.type.zilde.apl",
+      "name": "support.function.construct.zilde.apl",
       "comment": "Zilde - Empty numeric vector"
+    },
+
+    { "match": "⎕[A-Z]+",
+      "name": "support.function.construct.quad.apl",
+      "comment": "Quad - system input"
     },
 
 
@@ -204,7 +222,7 @@
       "comment": "Domino - Matrix inverse / matrix divide"
     },
 
-// support.function.construct -> red
+
 
     { "match": "⍺⍺",
       "name": "constant.other.parameter.doublealpha.apl",
