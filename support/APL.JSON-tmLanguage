@@ -70,8 +70,53 @@
 
 
     { "match": "¯",
-      "name": "support.function.negate.apl",
+      "name": "support.function.math.highminus.apl",
       "comment": "High minus - Negate"
+    },
+
+    { "match": "\\+",
+      "name": "support.function.math.plus.apl",
+      "comment": "Plus - Conjugate / Add"
+    },
+
+    { "match": "-",
+      "name": "support.function.math.minus.apl",
+      "comment": "Minus - Negate / Minus"
+    },
+
+    { "match": "÷",
+      "name": "support.function.math.divide.apl",
+      "comment": "Divide - Reciprocal / Divide"
+    },
+
+    { "match": "×",
+      "name": "support.function.math.times.apl",
+      "comment": "Times - Sign Of / Multiply"
+    },
+
+    { "match": "\\|",
+      "name": "support.function.math.stile.apl",
+      "comment": "Stile - Magnitude / Residue"
+    },
+
+    { "match": "⌈",
+      "name": "support.function.math.upstile.apl",
+      "comment": "Upstile - Ceiling / Maximum"
+    },
+
+    { "match": "⌊",
+      "name": "support.function.math.downstile.apl",
+      "comment": "Downstile - Floor / Minimum"
+    },
+
+    { "match": "⊥",
+      "name": "support.function.math.uptack.apl",
+      "comment": "Uptack - Decode"
+    },
+
+    { "match": "⊤",
+      "name": "support.function.math.downtack.apl",
+      "comment": "Downtack - Encode"
     },
 
 
@@ -128,6 +173,10 @@
       "comment": "Circle dot - outer product"
     }
 
+
+
   ],
+
   "uuid": "0d05b65e-3e85-4493-8936-fece72e43e47"
+
 }
