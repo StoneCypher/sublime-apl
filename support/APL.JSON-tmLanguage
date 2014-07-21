@@ -122,17 +122,17 @@
 
 
     { "match": "⍺⍺",
-      "name": "variable.para.doublealpha.apl",
+      "name": "variable.parameter.doublealpha.apl",
       "comment": "Double alpha variable"
     },
 
     { "match": "⍺",
-      "name": "variable.other.alpha.apl",
+      "name": "variable.parameter.alpha.apl",
       "comment": "Alpha variable"
     },
 
     { "match": "⍵⍵",
-      "name": "variable.language.doubleomega.apl",
+      "name": "variable.parameter.doubleomega.apl",
       "comment": "Double Omega variable"
     },
 

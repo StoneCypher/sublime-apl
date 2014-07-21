@@ -11,6 +11,51 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>begin</key>
+			<string>'</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>string.single.begin.apl</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>String</string>
+			<key>end</key>
+			<string>'|
+</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.single.end.apl</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>invalid.illegal.newline.apl</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>string.single.apl</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>$self</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>.</string>
+					<key>name</key>
+					<string>string.single.content.apl</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
 			<key>comment</key>
 			<string>Line comment</string>
 			<key>match</key>
@@ -20,7 +65,7 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Line comment</string>
+			<string>Numeric constant</string>
 			<key>match</key>
 			<string>[0-9][0-9\.]*</string>
 			<key>name</key>
@@ -60,11 +105,91 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>High minus - Negate</string>
+			<key>match</key>
+			<string>¯</string>
+			<key>name</key>
+			<string>support.function.math.highminus.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Plus - Conjugate / Add</string>
+			<key>match</key>
+			<string>\+</string>
+			<key>name</key>
+			<string>support.function.math.plus.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Minus - Negate / Minus</string>
+			<key>match</key>
+			<string>-</string>
+			<key>name</key>
+			<string>support.function.math.minus.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Divide - Reciprocal / Divide</string>
+			<key>match</key>
+			<string>÷</string>
+			<key>name</key>
+			<string>support.function.math.divide.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Times - Sign Of / Multiply</string>
+			<key>match</key>
+			<string>×</string>
+			<key>name</key>
+			<string>support.function.math.times.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Stile - Magnitude / Residue</string>
+			<key>match</key>
+			<string>\|</string>
+			<key>name</key>
+			<string>support.function.math.stile.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Upstile - Ceiling / Maximum</string>
+			<key>match</key>
+			<string>⌈</string>
+			<key>name</key>
+			<string>support.function.math.upstile.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Downstile - Floor / Minimum</string>
+			<key>match</key>
+			<string>⌊</string>
+			<key>name</key>
+			<string>support.function.math.downstile.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Uptack - Decode</string>
+			<key>match</key>
+			<string>⊥</string>
+			<key>name</key>
+			<string>support.function.math.uptack.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Downtack - Encode</string>
+			<key>match</key>
+			<string>⊤</string>
+			<key>name</key>
+			<string>support.function.math.downtack.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Double alpha variable</string>
 			<key>match</key>
 			<string>⍺⍺</string>
 			<key>name</key>
-			<string>variable.para.doublealpha.apl</string>
+			<string>variable.parameter.doublealpha.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -72,7 +197,7 @@
 			<key>match</key>
 			<string>⍺</string>
 			<key>name</key>
-			<string>variable.other.alpha.apl</string>
+			<string>variable.parameter.alpha.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -80,7 +205,7 @@
 			<key>match</key>
 			<string>⍵⍵</string>
 			<key>name</key>
-			<string>variable.language.doubleomega.apl</string>
+			<string>variable.parameter.doubleomega.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -137,29 +262,6 @@
 			<string>∘\.</string>
 			<key>name</key>
 			<string>keyword.operator.outerproduct.apl</string>
-		</dict>
-		<dict>
-			<key>begin</key>
-			<string>'</string>
-			<key>comment</key>
-			<string>String</string>
-			<key>end</key>
-			<string>'</string>
-			<key>name</key>
-			<string>string.apl</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>include</key>
-					<string>$self</string>
-				</dict>
-				<dict>
-					<key>match</key>
-					<string>.</string>
-					<key>name</key>
-					<string>string.single.apl</string>
-				</dict>
-			</array>
 		</dict>
 	</array>
 	<key>scopeName</key>
