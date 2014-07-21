@@ -51,7 +51,7 @@
 					<key>match</key>
 					<string>[a-zA-Z]+</string>
 					<key>name</key>
-					<string>string.single.content.apl</string>
+					<string>string.quoted.single.content.apl</string>
 				</dict>
 			</array>
 		</dict>
@@ -325,7 +325,7 @@
 			<key>match</key>
 			<string>⍺⍺</string>
 			<key>name</key>
-			<string>variable.parameter.doublealpha.apl</string>
+			<string>constant.other.parameter.doublealpha.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -333,7 +333,7 @@
 			<key>match</key>
 			<string>⍺</string>
 			<key>name</key>
-			<string>variable.parameter.alpha.apl</string>
+			<string>constant.language.parameter.alpha.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -341,7 +341,7 @@
 			<key>match</key>
 			<string>⍵⍵</string>
 			<key>name</key>
-			<string>variable.parameter.doubleomega.apl</string>
+			<string>constant.other.parameter.doubleomega.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -349,7 +349,7 @@
 			<key>match</key>
 			<string>⍵</string>
 			<key>name</key>
-			<string>variable.parameter.omega.apl</string>
+			<string>constant.language.parameter.omega.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -385,19 +385,19 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Jot - outer product</string>
+			<key>match</key>
+			<string>∘</string>
+			<key>name</key>
+			<string>keyword.operator.jot.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Dot - inner product</string>
 			<key>match</key>
 			<string>\.</string>
 			<key>name</key>
 			<string>keyword.operator.innerproduct.apl</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Circle dot - outer product</string>
-			<key>match</key>
-			<string>∘\.</string>
-			<key>name</key>
-			<string>keyword.operator.outerproduct.apl</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

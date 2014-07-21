@@ -21,7 +21,7 @@
       },
       "patterns": [
         { "include": "$self" },
-        { "name": "string.single.content.apl",
+        { "name": "string.quoted.single.content.apl",
           "match": "[a-zA-Z]+"
         }
       ],
@@ -203,6 +203,8 @@
       "name": "support.function.math.domino.apl",
       "comment": "Domino - Matrix inverse / matrix divide"
     },
+
+// support.function.construct -> red
 
     { "match": "⍺⍺",
       "name": "constant.other.parameter.doublealpha.apl",
