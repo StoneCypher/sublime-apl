@@ -387,6 +387,41 @@
       "comment": "Jot diaerisis - Rank"
     },
 
+    { "match": "⌷",
+      "name": "keyword.operator.squad.apl",
+      "comment": "Squad - Materialize / index"
+    },
+
+    { "match": "⊃",
+      "name": "keyword.operator.rightshoe.apl",
+      "comment": "Right shoe - First / pick"
+    },
+
+    { "match": "~",
+      "name": "keyword.operator.tilde.apl",
+      "comment": "Tilde - Not / without"
+    },
+
+    { "match": "∪",
+      "name": "keyword.operator.upshoe.apl",
+      "comment": "Up shoe - Unique / union"
+    },
+
+    { "match": "∩",
+      "name": "keyword.operator.downshoe.apl",
+      "comment": "Down shoe - Intersection"
+    },
+
+    { "match": "⊣",
+      "name": "keyword.operator.lefttack.apl",
+      "comment": "Left tack - Same / left"
+    },
+
+    { "match": "⊢",
+      "name": "keyword.operator.righttack.apl",
+      "comment": "Right tack - Same / right"
+    },
+
 
 
 

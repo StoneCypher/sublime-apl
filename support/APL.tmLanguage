@@ -593,6 +593,62 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Squad - Materialize / index</string>
+			<key>match</key>
+			<string>⌷</string>
+			<key>name</key>
+			<string>keyword.operator.squad.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Right shoe - First / pick</string>
+			<key>match</key>
+			<string>⊃</string>
+			<key>name</key>
+			<string>keyword.operator.rightshoe.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tilde - Not / without</string>
+			<key>match</key>
+			<string>~</string>
+			<key>name</key>
+			<string>keyword.operator.tilde.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Up shoe - Unique / union</string>
+			<key>match</key>
+			<string>∪</string>
+			<key>name</key>
+			<string>keyword.operator.upshoe.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Down shoe - Intersection</string>
+			<key>match</key>
+			<string>∩</string>
+			<key>name</key>
+			<string>keyword.operator.downshoe.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Left tack - Same / left</string>
+			<key>match</key>
+			<string>⊣</string>
+			<key>name</key>
+			<string>keyword.operator.lefttack.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Right tack - Same / right</string>
+			<key>match</key>
+			<string>⊢</string>
+			<key>name</key>
+			<string>keyword.operator.righttack.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Iota - Index generator / index of</string>
 			<key>match</key>
 			<string>⍳</string>
