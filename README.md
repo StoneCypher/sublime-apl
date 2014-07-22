@@ -3,6 +3,22 @@ sublime-apl
 
 SublimeText highlighter for "A Programming Language" (APL)
 
+Show me!
+--------
+
+Go from
+
+![](apl not highlit.png)
+
+to
+
+![](apl highlit.png)
+
+Sublime-APL covers the complete APL language with a well balanced 
+coloring scheme.
+
+![](opertable.png)
+
 Thanks
 ------
 
