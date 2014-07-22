@@ -169,6 +169,70 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Less than - Less than</string>
+			<key>match</key>
+			<string>&lt;</string>
+			<key>name</key>
+			<string>support.function.lessthan.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Greater than - Greater than</string>
+			<key>match</key>
+			<string>&gt;</string>
+			<key>name</key>
+			<string>support.function.greaterthan.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Less than or equal to - Less than or equal to</string>
+			<key>match</key>
+			<string>≤</string>
+			<key>name</key>
+			<string>support.function.lessthanorequalto.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Greater than or equal to - Greater than or equal to</string>
+			<key>match</key>
+			<string>≥</string>
+			<key>name</key>
+			<string>support.function.greaterthanorequalto.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Equal - Equal to</string>
+			<key>match</key>
+			<string>=</string>
+			<key>name</key>
+			<string>support.function.equal.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Not equal - Not equal to (XOR)</string>
+			<key>match</key>
+			<string>≠</string>
+			<key>name</key>
+			<string>support.function.notequal.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Equal underbar - Depth / match</string>
+			<key>match</key>
+			<string>≡</string>
+			<key>name</key>
+			<string>support.function.equalunderbar.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Equal underbar slash - Tally / not match</string>
+			<key>match</key>
+			<string>≢</string>
+			<key>name</key>
+			<string>support.function.equalunderbarslash.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Rho - Shape/Reshape</string>
 			<key>match</key>
 			<string>⍴</string>
@@ -262,14 +326,6 @@
 			<string>⊂</string>
 			<key>name</key>
 			<string>storage.modifier.leftshoe.apl</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Equal underbar - Depth / match</string>
-			<key>match</key>
-			<string>≡</string>
-			<key>name</key>
-			<string>storage.modifier.equalunderbar.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>

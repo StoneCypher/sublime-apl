@@ -94,8 +94,6 @@
 
 
 
-// <>≤≥=≠≢
-
     { "match": "∧",
       "name": "support.function.and.apl",
       "comment": "Rho - Shape/Reshape"
@@ -114,6 +112,46 @@
     { "match": "⍱",
       "name": "support.function.nor.apl",
       "comment": "Rho - Shape/Reshape"
+    },
+
+    { "match": "<",
+      "name": "support.function.lessthan.apl",
+      "comment": "Less than - Less than"
+    },
+
+    { "match": ">",
+      "name": "support.function.greaterthan.apl",
+      "comment": "Greater than - Greater than"
+    },
+
+    { "match": "≤",
+      "name": "support.function.lessthanorequalto.apl",
+      "comment": "Less than or equal to - Less than or equal to"
+    },
+
+    { "match": "≥",
+      "name": "support.function.greaterthanorequalto.apl",
+      "comment": "Greater than or equal to - Greater than or equal to"
+    },
+
+    { "match": "=",
+      "name": "support.function.equal.apl",
+      "comment": "Equal - Equal to"
+    },
+
+    { "match": "≠",
+      "name": "support.function.notequal.apl",
+      "comment": "Not equal - Not equal to (XOR)"
+    },
+
+    { "match": "≡",
+      "name": "support.function.equalunderbar.apl",
+      "comment": "Equal underbar - Depth / match"
+    },
+
+    { "match": "≢",
+      "name": "support.function.equalunderbarslash.apl",
+      "comment": "Equal underbar slash - Tally / not match"
     },
 
 
@@ -176,11 +214,6 @@
     { "match": "⊂",
       "name": "storage.modifier.leftshoe.apl",
       "comment": "Left shoe - Enclose / partitioned enclose"
-    },
-
-    { "match": "≡",
-      "name": "storage.modifier.equalunderbar.apl",
-      "comment": "Equal underbar - Depth / match"
     },
 
     { "match": "∊",
