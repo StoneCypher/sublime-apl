@@ -6,14 +6,14 @@ SublimeText highlighter for "A Programming Language" (APL)
 Show me!
 --------
 
-| Go from                        | To                         |
-|--------------------------------|----------------------------|
-| ![](apl not highlit small.png) | ![](apl highlit small.png) |
+| Go from                            | To                             |
+|------------------------------------|--------------------------------|
+| ![](doc/apl not highlit small.png) | ![](doc/apl highlit small.png) |
 
 Sublime-APL covers the complete APL language with a well balanced 
 coloring scheme.
 
-![](opertable.png)
+![](doc/opertable.png)
 
 
 
