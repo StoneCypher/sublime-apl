@@ -81,19 +81,11 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Left Arrow - Assign</string>
-			<key>match</key>
-			<string>←</string>
-			<key>name</key>
-			<string>storage.apl</string>
-		</dict>
-		<dict>
-			<key>comment</key>
 			<string>Open d-function/d-operator</string>
 			<key>match</key>
 			<string>{</string>
 			<key>name</key>
-			<string>support.function.function.open.apl</string>
+			<string>support.function.open.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -101,7 +93,7 @@
 			<key>match</key>
 			<string>}</string>
 			<key>name</key>
-			<string>support.function.function.close.apl</string>
+			<string>support.function.close.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -109,7 +101,7 @@
 			<key>match</key>
 			<string>\(</string>
 			<key>name</key>
-			<string>support.type.parenthesis.open.apl</string>
+			<string>support.function.parenthesis.open.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -117,7 +109,7 @@
 			<key>match</key>
 			<string>\)</string>
 			<key>name</key>
-			<string>support.type.parenthesis.close.apl</string>
+			<string>support.function.parenthesis.close.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -125,7 +117,7 @@
 			<key>match</key>
 			<string>\[</string>
 			<key>name</key>
-			<string>support.type.parenthesis.open.apl</string>
+			<string>support.function.parenthesis.open.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -133,7 +125,15 @@
 			<key>match</key>
 			<string>\]</string>
 			<key>name</key>
-			<string>support.type.parenthesis.close.apl</string>
+			<string>support.function.parenthesis.close.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Left Arrow - Assign</string>
+			<key>match</key>
+			<string>←</string>
+			<key>name</key>
+			<string>support.function.construct.leftarrow.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -653,7 +653,7 @@
 			<key>match</key>
 			<string>⍳</string>
 			<key>name</key>
-			<string>support.function.iota.apl</string>
+			<string>constant.numeric.iota.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>

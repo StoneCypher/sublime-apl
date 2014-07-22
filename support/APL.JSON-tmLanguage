@@ -53,44 +53,42 @@
 
 
 
-    { "match": "←",
-      "name": "storage.apl",
-      "comment": "Left Arrow - Assign"
-    },
-
-
-
     { "match": "{",
-      "name": "support.function.function.open.apl",
+      "name": "support.function.open.apl",
       "comment": "Open d-function/d-operator"
     },
 
     { "match": "}",
-      "name": "support.function.function.close.apl",
+      "name": "support.function.close.apl",
       "comment": "Close d-function/d-operator"
     },
 
     { "match": "\\(",
-      "name": "support.type.parenthesis.open.apl",
+      "name": "support.function.parenthesis.open.apl",
       "comment": "Open parenthesis - Vectors / ordering"
     },
 
     { "match": "\\)",
-      "name": "support.type.parenthesis.close.apl",
+      "name": "support.function.parenthesis.close.apl",
       "comment": "Close parenthesis - Vectors / ordering"
     },
 
     { "match": "\\[",
-      "name": "support.type.parenthesis.open.apl",
+      "name": "support.function.parenthesis.open.apl",
       "comment": "Left bracket - Indexing / axis specification"
     },
 
     { "match": "\\]",
-      "name": "support.type.parenthesis.close.apl",
+      "name": "support.function.parenthesis.close.apl",
       "comment": "Right bracket - Indexing / axis specification"
     },
 
 
+
+    { "match": "←",
+      "name": "support.function.construct.leftarrow.apl",
+      "comment": "Left Arrow - Assign"
+    },
 
     { "match": "⍬",
       "name": "support.function.construct.zilde.apl",
@@ -426,7 +424,7 @@
 
 
     { "match": "⍳",
-      "name": "support.function.iota.apl",
+      "name": "constant.numeric.iota.apl",
       "comment": "Iota - Index generator / index of"
     },
 
