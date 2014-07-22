@@ -80,6 +80,16 @@
       "comment": "Close parenthesis - Vectors / ordering"
     },
 
+    { "match": "\\[",
+      "name": "support.type.parenthesis.open.apl",
+      "comment": "Left bracket - Indexing / axis specification"
+    },
+
+    { "match": "\\]",
+      "name": "support.type.parenthesis.close.apl",
+      "comment": "Right bracket - Indexing / axis specification"
+    },
+
 
 
     { "match": "⍬",
@@ -87,7 +97,22 @@
       "comment": "Zilde - Empty numeric vector"
     },
 
-    { "match": "⎕[A-Z]+",
+    { "match": "⋄",
+      "name": "support.function.construct.diamond.apl",
+      "comment": "Diamond - statement separator"
+    },
+
+    { "match": "⍕",
+      "name": "support.function.construct.thorn.apl",
+      "comment": "Thorn - Format / format by specification"
+    },
+
+    { "match": "∇",
+      "name": "support.function.construct.del.apl",
+      "comment": "Del - self reference (recurse)"
+    },
+
+    { "match": "⎕[A-Z]*",
       "name": "support.function.construct.quad.apl",
       "comment": "Quad - system input"
     },
@@ -355,6 +380,16 @@
     { "match": "\\.",
       "name": "keyword.operator.innerproduct.apl",
       "comment": "Dot - inner product"
+    },
+
+    { "match": "⌸",
+      "name": "keyword.operator.quadequal.apl",
+      "comment": "Quad equal - Key"
+    },
+
+    { "match": "⍤",
+      "name": "keyword.operator.jotdiaerisis.apl",
+      "comment": "Jot diaerisis - Rank"
     }
 
 

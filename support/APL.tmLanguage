@@ -121,6 +121,22 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Left bracket - Indexing / axis specification</string>
+			<key>match</key>
+			<string>\[</string>
+			<key>name</key>
+			<string>support.type.parenthesis.open.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Right bracket - Indexing / axis specification</string>
+			<key>match</key>
+			<string>\]</string>
+			<key>name</key>
+			<string>support.type.parenthesis.close.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Zilde - Empty numeric vector</string>
 			<key>match</key>
 			<string>⍬</string>
@@ -129,9 +145,33 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Diamond - statement separator</string>
+			<key>match</key>
+			<string>⋄</string>
+			<key>name</key>
+			<string>support.function.construct.diamond.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Thorn - Format / format by specification</string>
+			<key>match</key>
+			<string>⍕</string>
+			<key>name</key>
+			<string>support.function.construct.thorn.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Del - self reference (recurse)</string>
+			<key>match</key>
+			<string>∇</string>
+			<key>name</key>
+			<string>support.function.construct.del.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Quad - system input</string>
 			<key>match</key>
-			<string>⎕[A-Z]+</string>
+			<string>⎕[A-Z]*</string>
 			<key>name</key>
 			<string>support.function.construct.quad.apl</string>
 		</dict>
@@ -542,6 +582,22 @@
 			<string>\.</string>
 			<key>name</key>
 			<string>keyword.operator.innerproduct.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Quad equal - Key</string>
+			<key>match</key>
+			<string>⌸</string>
+			<key>name</key>
+			<string>keyword.operator.quadequal.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Jot diaerisis - Rank</string>
+			<key>match</key>
+			<string>⍤</string>
+			<key>name</key>
+			<string>keyword.operator.jotdiaerisis.apl</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

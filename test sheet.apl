@@ -9,10 +9,10 @@
 ⍴,⍪⌽⊖⍉↑↓⊂∊
 ⌷⊃/⌿\⍀~∪∩⊣⊢
 ⍳∊⍷⍋⍒
-¯←⍬⍕⋄∇⍺⍵⎕[]{}''⍝
-¨⍨⍣
+¯{}[]''←⍺⍵⍺⍺⍵⍵⍬⍕⋄∇⎕⍝
+¨⍨⍣..∘/\⌿⍀⌸⍤
 ⍺ ⍺⍺ ⍵ ⍵⍵
-⍬ ⎕FMT 
+⎕FMT 
 ()
 10 -20 ¯20 0 0.0 ¯123.45
 
@@ -23,7 +23,7 @@ Qualifiers ← 'abundance of '       'the barrier of '     'self-righteous '    
 Finishes   ← 'marvel.'             'choices.'            'creativity.'         'actions.'
 
 rf     ← {(?⍴⍵) ⊃⍵}
-erf    ← {rf ¨ ⍵}
+erf    ← {rf ¨⍵}
 
 deepak ← {erf Starts Middles Qualifiers Finishes}
 
