@@ -6,10 +6,22 @@
 	<array>
 		<string>apl</string>
 	</array>
+	<key>foldingStartMarker</key>
+	<string>{</string>
+	<key>foldingStopMarker</key>
+	<string>}</string>
 	<key>name</key>
 	<string>APL</string>
 	<key>patterns</key>
 	<array>
+		<dict>
+			<key>comment</key>
+			<string>Shebang interpreter invokation</string>
+			<key>match</key>
+			<string>^#!.+</string>
+			<key>name</key>
+			<string>comment.shebang.apl</string>
+		</dict>
 		<dict>
 			<key>begin</key>
 			<string>'</string>
@@ -24,8 +36,8 @@
 			<key>comment</key>
 			<string>String</string>
 			<key>end</key>
-			<string>'|
-</string>
+			<string>(')|(
+)</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
@@ -40,13 +52,9 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>support.type.string.single.apl</string>
+			<string>string.quoted.single.apl</string>
 			<key>patterns</key>
 			<array>
-				<dict>
-					<key>include</key>
-					<string>$self</string>
-				</dict>
 				<dict>
 					<key>match</key>
 					<string>[a-zA-Z]+</string>
@@ -117,7 +125,15 @@
 			<key>match</key>
 			<string>⍬</string>
 			<key>name</key>
-			<string>support.type.zilde.apl</string>
+			<string>support.function.construct.zilde.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Quad - system input</string>
+			<key>match</key>
+			<string>⎕[A-Z]+</string>
+			<key>name</key>
+			<string>support.function.construct.quad.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -190,6 +206,46 @@
 			<string>⍉</string>
 			<key>name</key>
 			<string>storage.modifier.circlebackslash.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Up arrow - Mix / take</string>
+			<key>match</key>
+			<string>↑</string>
+			<key>name</key>
+			<string>storage.modifier.uparrow.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Down arrow - Split / drop</string>
+			<key>match</key>
+			<string>↓</string>
+			<key>name</key>
+			<string>storage.modifier.downarrow.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Left shoe - Enclose / partitioned enclose</string>
+			<key>match</key>
+			<string>⊂</string>
+			<key>name</key>
+			<string>storage.modifier.leftshoe.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Equal underbar - Depth / match</string>
+			<key>match</key>
+			<string>≡</string>
+			<key>name</key>
+			<string>storage.modifier.equalunderbar.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Epsilon - Enlist / membership</string>
+			<key>match</key>
+			<string>∊</string>
+			<key>name</key>
+			<string>storage.modifier.epsilon.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>

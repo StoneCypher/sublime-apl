@@ -22,7 +22,7 @@
 
 
     { "begin": "'",
-      "end": "'|\n",
+      "end": "(')|(\n)",
       "beginCaptures": {
         "0": {"name": "support.type.string.single.begin.apl"}
       },
@@ -31,12 +31,11 @@
         "2": {"name": "invalid.illegal.newline.apl"}
       },
       "patterns": [
-        { "include": "$self" },
         { "name": "string.quoted.single.content.apl",
           "match": "[a-zA-Z]+"
         }
       ],
-      "name": "support.type.string.single.apl",
+      "name": "string.quoted.single.apl",
       "comment": "String"
     },
 
@@ -138,6 +137,31 @@
     { "match": "⍉",
       "name": "storage.modifier.circlebackslash.apl",
       "comment": "Circle backslash - Transpose / dyadic transpose"
+    },
+
+    { "match": "↑",
+      "name": "storage.modifier.uparrow.apl",
+      "comment": "Up arrow - Mix / take"
+    },
+
+    { "match": "↓",
+      "name": "storage.modifier.downarrow.apl",
+      "comment": "Down arrow - Split / drop"
+    },
+
+    { "match": "⊂",
+      "name": "storage.modifier.leftshoe.apl",
+      "comment": "Left shoe - Enclose / partitioned enclose"
+    },
+
+    { "match": "≡",
+      "name": "storage.modifier.equalunderbar.apl",
+      "comment": "Equal underbar - Depth / match"
+    },
+
+    { "match": "∊",
+      "name": "storage.modifier.epsilon.apl",
+      "comment": "Epsilon - Enlist / membership"
     },
 
 
