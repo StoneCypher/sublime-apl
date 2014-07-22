@@ -369,14 +369,6 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Epsilon - Enlist / membership</string>
-			<key>match</key>
-			<string>∊</string>
-			<key>name</key>
-			<string>storage.modifier.epsilon.apl</string>
-		</dict>
-		<dict>
-			<key>comment</key>
 			<string>High minus - Negate</string>
 			<key>match</key>
 			<string>¯</string>
@@ -598,6 +590,46 @@
 			<string>⍤</string>
 			<key>name</key>
 			<string>keyword.operator.jotdiaerisis.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Iota - Index generator / index of</string>
+			<key>match</key>
+			<string>⍳</string>
+			<key>name</key>
+			<string>support.function.iota.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Epsilon - Enlist / membership</string>
+			<key>match</key>
+			<string>∊</string>
+			<key>name</key>
+			<string>support.function.epsilon.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Epsilon underbar - Find</string>
+			<key>match</key>
+			<string>⍷</string>
+			<key>name</key>
+			<string>support.function.epsilonunderbar.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Grade up - Grade up / dyadic grade up</string>
+			<key>match</key>
+			<string>⍋</string>
+			<key>name</key>
+			<string>support.function.gradeup.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Grade down - Grade down / dyadic grade down</string>
+			<key>match</key>
+			<string>⍒</string>
+			<key>name</key>
+			<string>support.function.gradedown.apl</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

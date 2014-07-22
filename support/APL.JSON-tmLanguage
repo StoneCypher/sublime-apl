@@ -241,11 +241,6 @@
       "comment": "Left shoe - Enclose / partitioned enclose"
     },
 
-    { "match": "∊",
-      "name": "storage.modifier.epsilon.apl",
-      "comment": "Epsilon - Enlist / membership"
-    },
-
 
 
     { "match": "¯",
@@ -390,6 +385,34 @@
     { "match": "⍤",
       "name": "keyword.operator.jotdiaerisis.apl",
       "comment": "Jot diaerisis - Rank"
+    },
+
+
+
+
+    { "match": "⍳",
+      "name": "support.function.iota.apl",
+      "comment": "Iota - Index generator / index of"
+    },
+
+    { "match": "∊",
+      "name": "support.function.epsilon.apl",
+      "comment": "Epsilon - Enlist / membership"
+    },
+
+    { "match": "⍷",
+      "name": "support.function.epsilonunderbar.apl",
+      "comment": "Epsilon underbar - Find"
+    },
+
+    { "match": "⍋",
+      "name": "support.function.gradeup.apl",
+      "comment": "Grade up - Grade up / dyadic grade up"
+    },
+
+    { "match": "⍒",
+      "name": "support.function.gradedown.apl",
+      "comment": "Grade down - Grade down / dyadic grade down"
     }
 
 
