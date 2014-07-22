@@ -8,11 +8,11 @@ Show me!
 
 Go from
 
-![](apl not highlit.png)
+<img src="apl not highlit.png" style="width: 399px;"/>
 
-to
+To
 
-![](apl highlit.png)
+<img src="apl highlit.png" style="width: 399px;"/>
 
 Sublime-APL covers the complete APL language with a well balanced 
 coloring scheme.
