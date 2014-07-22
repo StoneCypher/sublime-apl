@@ -53,6 +53,18 @@
 
 
 
+    { "match": ":[a-zA-Z0-9]*",
+      "name": "string.quoted.single.label.apl",
+      "comment": "Specifier label"
+    },
+
+    { "match": ";",
+      "name": "string.quoted.single.semicolon.apl",
+      "comment": "Semicolon - conjoin"
+    },
+
+
+
     { "match": "{",
       "name": "support.function.open.apl",
       "comment": "Open d-function/d-operator"

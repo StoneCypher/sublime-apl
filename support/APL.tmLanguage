@@ -81,6 +81,22 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Specifier label</string>
+			<key>match</key>
+			<string>:[a-zA-Z0-9]*</string>
+			<key>name</key>
+			<string>string.quoted.single.label.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Semicolon - conjoin</string>
+			<key>match</key>
+			<string>;</string>
+			<key>name</key>
+			<string>string.quoted.single.semicolon.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Open d-function/d-operator</string>
 			<key>match</key>
 			<string>{</string>
