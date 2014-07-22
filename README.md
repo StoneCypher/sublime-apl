@@ -8,7 +8,7 @@ Show me!
 
 | Go from                            | To                             |
 |------------------------------------|--------------------------------|
-| ![](doc/apl not highlit small.png) | ![](doc/apl highlit small.png) |
+| <a href="doc/apl%20not%20highlit.png"><img src="doc/apl not highlit small.png"></a> | <a href="doc/apl%20highlit.png"><img src="doc/apl highlit small.png"></a> |
 
 Sublime-APL covers the complete APL language with a well balanced 
 coloring scheme.
