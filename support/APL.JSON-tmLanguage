@@ -41,7 +41,7 @@
 
 
 
-    { "match": "⍝.+",
+    { "match": "⍝.*",
       "name": "comment.line.apl",
       "comment": "Line comment"
     },
@@ -90,6 +90,30 @@
     { "match": "⎕[A-Z]+",
       "name": "support.function.construct.quad.apl",
       "comment": "Quad - system input"
+    },
+
+
+
+// <>≤≥=≠≢
+
+    { "match": "∧",
+      "name": "support.function.and.apl",
+      "comment": "Rho - Shape/Reshape"
+    },
+
+    { "match": "∨",
+      "name": "support.function.or.apl",
+      "comment": "Rho - Shape/Reshape"
+    },
+
+    { "match": "⍲",
+      "name": "support.function.nand.apl",
+      "comment": "Rho - Shape/Reshape"
+    },
+
+    { "match": "⍱",
+      "name": "support.function.nor.apl",
+      "comment": "Rho - Shape/Reshape"
     },
 
 

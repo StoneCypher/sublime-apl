@@ -8,4 +8,4 @@ Thanks
 
 Thanks to:
 
-  * [FichteFoll][http://github.com/FichteFoll/] for help with string notation
+  * [FichteFoll](http://github.com/FichteFoll/) for help with string notation

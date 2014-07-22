@@ -67,7 +67,7 @@
 			<key>comment</key>
 			<string>Line comment</string>
 			<key>match</key>
-			<string>⍝.+</string>
+			<string>⍝.*</string>
 			<key>name</key>
 			<string>comment.line.apl</string>
 		</dict>
@@ -134,6 +134,38 @@
 			<string>⎕[A-Z]+</string>
 			<key>name</key>
 			<string>support.function.construct.quad.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Rho - Shape/Reshape</string>
+			<key>match</key>
+			<string>∧</string>
+			<key>name</key>
+			<string>support.function.and.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Rho - Shape/Reshape</string>
+			<key>match</key>
+			<string>∨</string>
+			<key>name</key>
+			<string>support.function.or.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Rho - Shape/Reshape</string>
+			<key>match</key>
+			<string>⍲</string>
+			<key>name</key>
+			<string>support.function.nand.apl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Rho - Shape/Reshape</string>
+			<key>match</key>
+			<string>⍱</string>
+			<key>name</key>
+			<string>support.function.nor.apl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
