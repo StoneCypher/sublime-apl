@@ -34,6 +34,8 @@ To install through Package Control:
 
 * Bring up the command list (`ctrl-shift-P`) and type install package, which should bring up `Package Control: Install Package`. Package Control will pause briefly to fetch the list of available plugins.
 
+  * If you don't see `Package Control: Install Package`, you need to install [Package Control](https://github.com/wbond/sublime_package_control) first.
+
 * When the plugin list appears, type `apl`.  When you see this package, choose it.
 
 
