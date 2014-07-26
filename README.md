@@ -25,10 +25,26 @@ Sublime-APL covers the complete APL language with a well balanced coloring schem
 
 
 
+Plugin installation
+-------------------
+
+`Package Control` is the easiest way to install this highlighter, and will manage version changes over time.
+
+To install through Package Control:
+
+* Bring up the command list (`ctrl-shift-P`) and type install package, which should bring up `Package Control: Install Package`. Package Control will pause briefly to fetch the list of available plugins.
+
+* When the plugin list appears, type `apl`.  When you see this package, choose it.
+
+
+
+
+
+
 Current Library Status: *Usable*
 --------------------------------
 
-This library is considered to be ready and usable.  Will put it up as a package soon.
+This library is considered to be ready and usable, and is available in `Package Control`.
 
 Improvements will be gladly accepted.
 
