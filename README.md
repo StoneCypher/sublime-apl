@@ -50,6 +50,8 @@ This library is considered to be ready and usable, and is available in `Package 
 
 Improvements will be gladly accepted.
 
+A keyboard IME is coming soon.
+
 
 
 
