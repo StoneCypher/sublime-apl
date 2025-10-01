@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>apl</string>
+		<string>apls</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>{</string>

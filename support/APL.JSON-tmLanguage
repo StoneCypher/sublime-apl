@@ -5,7 +5,7 @@
 // http://docs.dyalog.com/latest/Dyalog%20APL%20Terminology.pdf
 
   "scopeName": "source.apl",
-  "fileTypes": ["apl"],
+  "fileTypes": ["apl", "apls"],
 
   "foldingStartMarker": "{",
   "foldingStopMarker": "}",
